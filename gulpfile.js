@@ -17,10 +17,10 @@ var gulp = require('gulp'),
 
 var path = {
 	build: {
-		html: 'build/',
-		js: 'build/js/',
-		css: 'build/css/',
-		img: 'build/img/'
+		html: 'docs/',
+		js: 'docs/js/',
+		css: 'docs/css/',
+		img: 'docs/img/'
 	},
 	src: {
 		html: 'src/*.html',
@@ -40,7 +40,7 @@ var path = {
 gulp.task('webserver', function(){
 	browserSync({
 		server: {
-			baseDir:"./build"
+			baseDir:"./docs"
 		},
 		host: "localhost",
 		port: 3000,
