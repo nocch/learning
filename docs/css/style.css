@@ -1,0 +1,21 @@
+h2.code-title, h2.result-title {
+  font-size: 24px; }
+
+h2.code-title {
+  color: #333; }
+
+h2.result-title {
+  color: indigo; }
+
+.code {
+  margin: 5px 0;
+  padding: 5px;
+  background: #ccc;
+  border-radius: 5px; }
+
+.code p {
+  padding: 3px 3px; }
+
+.result {
+  color: mediumslateblue;
+  font-size: 24px; }

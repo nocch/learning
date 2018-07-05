@@ -33,7 +33,7 @@ var path = {
 		js: 'src/js/**/*.js',
 		style: 'src/style/**/*.scss'
 	},
-	clean: './build'
+	clean: './docs'
 };
 
 
